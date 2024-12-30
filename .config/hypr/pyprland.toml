@@ -1,0 +1,17 @@
+[pyprland]
+plugins = ["scratchpads"]
+
+
+[scratchpads.term]
+command = "alacritty --class scratchpad"
+class = "Alacritty"
+size = "800px 600px"
+animation = "fromTop"
+
+[scratchpads.notes]
+command = "alacritty --class scratchpad -e vim ~/bin/notes.txt"
+class = "Alacritty"
+size = "800px 600px"
+animation = "fromTop"
+
+
