@@ -5,3 +5,13 @@
      style="float: left; margin-right: 10px; height: 300px" />
 
 
+#### Config 
+>
+> - bin
+> - nvim
+> - alacritty
+> - hypr
+> - tmux
+> - vifm
+> - waybar
+> - wofi
