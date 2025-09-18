@@ -1,4 +1,4 @@
-return {
+local M = {
   "lukas-reineke/indent-blankline.nvim",
   event = { "BufReadPre", "BufNewFile" },
   main = "ibl",
@@ -6,3 +6,5 @@ return {
     indent = { char = "┊" },
   },
 }
+
+return M
